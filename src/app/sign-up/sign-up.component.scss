@@ -1,0 +1,33 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-top: 5rem;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../assets/images/highResOrg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .sign-up-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    padding: 1rem 3rem;
+
+    .sign-up-form {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .sign-up-button {
+    margin-top: 1rem;
+  }
+}

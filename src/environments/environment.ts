@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyC6fo6gi9dzmvYjzBPrLYR2wGwaWJBU3SA',
+    authDomain: 'https://wow-classic-guild.firebaseapp.com/',
+    databaseURL: 'https://wow-classic-guild.firebaseio.com',
+    projectId: 'wow-classic-guild',
+    // storageBucket: 'ux-workflow.appspot.com',
+    // messagingSenderId: '858952932517'
+  }
 };
 
 /*

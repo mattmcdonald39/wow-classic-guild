@@ -1,0 +1,11 @@
+
+@import '@angular/material/_theming';
+@include mat-core();
+
+$fury-primary: mat-palette($mat-amber);
+$fury-accent: mat-palette($mat-deep-orange);
+
+// create theme (use mat-dark-theme for themes with dark backgrounds)
+$fury-theme: mat-dark-theme($fury-primary, $fury-accent);
+
+@include angular-material-theme($fury-theme);
